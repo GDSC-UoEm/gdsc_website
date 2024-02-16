@@ -30,4 +30,6 @@ img {
   font-size: 13px;
   display: flex;
   justify-content: space-evenly;
+  background-color: #4181ee;
+  color: white;
 }
