@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:wght@100;500&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+#thumbnail {
+  width: 20px;
+  height: 20px;
+}
+
+img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.current,
+.upcoming,
+.past {
+  width: 70vh;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-evenly;
+}
